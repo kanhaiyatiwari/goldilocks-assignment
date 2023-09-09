@@ -1,0 +1,5 @@
+INDEX VERSION 1.132+C:\Users\Mcs\Music\goldilocks-allquestion\question3\.metadata\.plugins\org.eclipse.jdt.core
+1108088733.index
+1865797976.index
+388270739.index
+2943204539.index

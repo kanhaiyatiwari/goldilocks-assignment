@@ -1,0 +1,10 @@
+package com.goldilocks.main;
+
+public class Demo {
+public static void main(String[] args) {
+	System.out.println("sadada");
+	UseCases u=new UseCases();
+	u.register();
+	u.vewAllEmploy();
+}
+}

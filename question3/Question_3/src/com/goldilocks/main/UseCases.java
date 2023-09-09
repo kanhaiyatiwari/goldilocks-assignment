@@ -1,0 +1,61 @@
+package com.goldilocks.main;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+import com.goldilocks.Dbutily;
+
+public class UseCases {
+
+	//create database as db1:-create database db1;use db1;
+	//create table :-create table test(emp_name varchar(200),emp_age int);
+	
+	public void register() {
+		try(Connection conn = Dbutily.provideConnection()){
+			Scanner s=new Scanner(System.in);
+			System.out.println("enter employe name");
+			
+			
+			String emp_name =s.next();
+			System.out.println("enter employe age");
+			int emp_age=s.nextInt();
+			PreparedStatement ps= conn.prepareStatement("insert into test values(?,?)");
+			
+			ps.setString(1, emp_name);
+			ps.setInt(2, emp_age);
+			int x= ps.executeUpdate();
+			if(x > 0)
+				System.out.println("Record Inserted Sucessfully..!");
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		}
+	}
+		
+	public void  vewAllEmploy() {
+		try(Connection conn = Dbutily.provideConnection()){
+			PreparedStatement ps= conn.prepareStatement("select *from test");
+			
+			ResultSet rs= ps.executeQuery();
+			while(rs.next()) {
+				String name=rs.getString("emp_name");
+				int age=rs.getInt("emp_age");
+				System.out.println("emp name:- "+name+"  , "+"emp age :- "+age);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		UseCases u=new UseCases();
+		u.register();
+		u.vewAllEmploy();
+	}
+}

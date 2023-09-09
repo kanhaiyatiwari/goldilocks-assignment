@@ -1,0 +1,7 @@
+package com.goldilocks.main;
+
+public class ff {
+public static void main(String[] args) {
+	System.out.println("sadada");
+}
+}

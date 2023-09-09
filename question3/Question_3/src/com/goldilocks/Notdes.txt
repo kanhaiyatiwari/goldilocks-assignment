@@ -1,0 +1,12 @@
+in this program i used jdbc my sql and java
+to make connection between java to my sql we have to first 
+downlod the jar file of my-sql according to version 
+
+then flow -right-click ->build path -configure build path->in libraries
+->add external jar
+
+
+so in this program you are also need mysql 
+i have create database by the name of db1;
+and create the table
+:-create table test(emp_name varchar(200),emp_age int);

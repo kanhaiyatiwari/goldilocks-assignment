@@ -1,0 +1,4 @@
+
+8. Write a SQL query to find the age is less than 30 and name start with S
+
+Solv:- select *from employee where emp_age<30 and emp_name like 'S%';

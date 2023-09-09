@@ -56,6 +56,7 @@ public class UseCases {
 	public static void main(String[] args) {
 		UseCases u=new UseCases();
 		u.register();
+                u.vewAllEmploy();
 		
 	}
 }

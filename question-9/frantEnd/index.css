@@ -1,0 +1,42 @@
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128__340.jpg);
+}
+#main{
+   padding-top: 30px;
+   padding-bottom: 30px;
+background: rgb(0, 204, 255);
+width: 70%;
+height: auto;
+margin: auto;
+}
+form,#view{
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    /* background-color: beige; */
+    margin: auto; 
+}
+ input{
+    border: none;
+line-height: 10px;
+margin-bottom: 10px;
+border-radius: 20px;
+height: 20px;
+background-color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    
+}
+button:hover{
+    background-color: rgba(58, 245, 67, 0.904);
+    
+}

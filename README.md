@@ -1,18 +1,27 @@
 # goldilocks-assignment
 The purpose of creating this repository is to solve the problems of Goldilocks given assignment.
-there are 9 problems  in this assignment
+There are 9 problems  in this assignment
+<br>
 1:-
-I have solved just using Math and i used java as language 
+I have solved just using Math and I used java as a language 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-2 problem i have solved by using java and concept of sterilization and decentralization
-
-3:- i solved this problem using java ,mysql and jdbc
-4:-this problem i solve using java only 
+<br>
+2 problem i have solved by using Java and concept of sterilization and decentralization
+<br>
+3:- i solved this problem using java ,MySQL and JDBC
+<br>
+4:-this problem I solve using Java only 
+<br>
 5:in this problem i have used hashmap
+<br>
 6:-in this problem we have to call http api and retrieve in db so this problem have solve by using Spring boot,java,mysql,lombok
+<br>
 7:-int this problem  i have to write a program that take the command line input and print all received so i solve this problem
-by using java 
+
+by using java <br>
 8:- to solve this problem i have used sql;
+<br>
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-9:-in this problem i have used html,css,js for frantend and java,spring boot,and mysql i have used for backend
-this program will not run if you dont have Mysql ,jdk,sts,vscode ,lombook
+<br>
+9:-in this problem I have used html,css,js for frantend and java, Spring Boot,and mysql i have used for backend
+This program will not run if you don't have Mysql ,jdk,sts,vs code ,logbook

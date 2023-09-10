@@ -2,6 +2,15 @@
 The purpose of creating this repository is to solve the problems of Goldilocks given assignment.
 There are 9 problems  in this assignment
 <br>
+Problem 9 I have also deployed on online 
+<Br>
+For frontend, I have used Netlify and  and for BackEnd I used railway cloud
+<br>
+This is the link of  the site:-<a href="https://64fda664ef58140e41a46cde--regal-paprenjak-855abf.netlify.app/">https://64fda664ef58140e41a46cde--regal-paprenjak-855abf.netlify.app/</a>
+   <br> 
+ this is the api :-<a href="https://realwaydepoloy-production.up.railway.app">https://realwaydepoloy-production.up.railway.app</a>
+    <br>
+   
 1:-
 I have solved just using Math and I used java as a language 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
